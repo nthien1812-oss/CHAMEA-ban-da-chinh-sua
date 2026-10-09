@@ -1,0 +1,6 @@
+{
+  "name": "CHAMÉA – Túi Xách & Quà Tặng Nữ Cao Cấp",
+  "description": "Khám phá những thiết kế túi xách CHAMÉA thanh lịch, dễ ứng dụng và phù hợp với nhiều phong cách, nhu cầu sử dụng và dịp tặng quà.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

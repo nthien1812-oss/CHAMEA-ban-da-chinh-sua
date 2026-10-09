@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Noto Serif", Georgia, serif;
+  --font-display: "Playfair Display", "Noto Serif", Georgia, serif;
+  --font-sans: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  --color-chamea-plum: #3C2535;
+  --color-chamea-champagne: #AB8A6B;
+  --color-chamea-beige: #BCA388;
+  --color-chamea-ivory: #FEFBFD;
+  --color-chamea-rose: #ECD5D8;
+}
+
+:root {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #3C2535;
+  background-color: #FEFBFD;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Ưu tiên font Playfair Display cho các thẻ tiêu đề (h1-h6) và font-serif với fallback Noto Serif, Georgia */
+h1, h2, h3, h4, h5, h6, .font-display, .font-serif {
+  font-family: "Playfair Display", "Noto Serif", Georgia, serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FEFBFD;
+}
+::-webkit-scrollbar-thumb {
+  background: #BCA388;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #AB8A6B;
+}

@@ -1,0 +1,34 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 1. Champagne Ribbon Loop (#AB8A6B) -->
+  <path
+    d="M 160 280 C 80 320 40 370 70 420 C 105 470 170 430 230 360"
+    stroke="#AB8A6B"
+    stroke-width="16"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <path
+    d="M 175 410 L 230 360"
+    stroke="#AB8A6B"
+    stroke-width="18"
+    stroke-linecap="round"
+  />
+
+  <!-- 2. Main Calligraphic Letter C (#3C2535) -->
+  <path
+    d="M 368 152 C 352 110 316 76 256 78 C 182 82 122 154 122 254 C 122 358 178 462 278 474 C 342 482 390 438 404 380 C 406 370 396 360 388 366 C 368 382 334 402 292 396 C 228 388 186 338 186 264 C 186 182 226 122 292 114 C 330 110 360 128 368 150 C 370 155 372 155 368 152 Z"
+    fill="#3C2535"
+  />
+
+  <!-- 3. Central Arched Flourish (#3C2535) -->
+  <path
+    d="M 205 320 C 255 260 320 200 368 235 C 372 238 375 235 372 230 C 332 195 260 235 195 330 C 192 335 200 340 205 320 Z"
+    fill="#3C2535"
+  />
+
+  <!-- 4. 4-Point Star (#AB8A6B) -->
+  <path
+    d="M 355 265 Q 355 310 400 310 Q 355 310 355 355 Q 355 310 310 310 Q 355 310 355 265 Z"
+    fill="#AB8A6B"
+  />
+</svg>
